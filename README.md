@@ -8,15 +8,15 @@ O primeiro desafio consiste em calcular a soma dos números de 1 até 13. O cód
 
 A fórmula utilizada para calcular a soma dos números de uma progressão aritmética é:
 
-\[
-SOMA = \frac{(primeiro\_termo + último\_termo) \times número\_de\_termos}{2}
-\]
+```makefile
+
+SOMA = (primeiro_termo + último_termo) * número_de_termos / 2
 
 Substituindo os valores:
 
-\[
-SOMA = \frac{(1 + 13) \times 13}{2} = 91
-\]
+SOMA = (1 + 13) * 13 / 2 = 91
+
+```
 
 **Resposta:** O valor final da variável `SOMA` será 91.
 
